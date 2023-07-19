@@ -105,11 +105,71 @@
 //     alert(`The area of the triangle is ${area}`)
 
 // 2. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
-let a = prompt('Enter side a:', 'Enter number'),
-    b = prompt('Enter side b:', 'Enter number'),
-    c = prompt('Enter side c:', 'Enter number'),
-    perimeter = +a + +b + +c
-    alert(`The perimeter of the triangle is ${+perimeter}`)
+// let a = prompt('Enter side a:', 'Enter number'),
+//     b = prompt('Enter side b:', 'Enter number'),
+//     c = prompt('Enter side c:', 'Enter number'),
+//     perimeter = +a + +b + +c
+//     alert(`The perimeter of the triangle is ${+perimeter}`)
+
+// 3. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+// let l = prompt('Enter the length of the rectangle:', 'Enter Number'),
+//     w = prompt('Enter the width of the rectangle:', 'Enter Number'),
+//     perimeter = 2 *(+l + +w)
+//     alert(`The perimeter of the rectangle is ${perimeter}`)
+
+// 4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+
+// let r = prompt('Enter the radius:', 'Enter number')
+// const pi = 3.14
+// let area = 2*pi*r
+// alert(`The area of the circle is ${area}`)
+
+// 5. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+// let x = 0,
+//     yIntercept = 2*x - 2,
+//     slope = 2,
+//     xIntercept = (2 + 0)/2
+// console.log(`y-intercept: ${yIntercept}`)
+// console.log(`x-intercept: ${xIntercept}`)
+// console.log(`Slope: ${slope}`)
+
+// // 6. Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
+
+
+
+// let y1 = 2,
+//     y2 = 10,
+//     x1 = 2,
+//     x2 = 6
+//     m = (y2-y1)/(x2-x1)
+// console.log(`Slope: ${m}`)
+
+// 7. Compare the slope of above two questions.
+
+// console.log(m === slope)
+
+// 8. Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+// let x = prompt('Enter the value of x:', 'Enter number'),
+//     y = x**2 + 6*x + 9
+//     alert(`The value of y is ${y}`) // -3
+
+// 9. Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+// let hrs = prompt('Enter hours:','Enter number'),
+//     rate = prompt('Enter rate per hour:', 'Enter number'),
+//     ern = hrs * rate
+//     alert(`Your weekly earning is ${ern}`)
+
+// 10. If the length of your name is greater than 7 say, your name is long else say your name is short.
+// let name = prompt('Enter name:', 'Your name here')
+//     if (name.length > 7){
+//         alert('Your name is long')
+//     }else {
+//         alert('Your name is Short')
+//     }
+
+
+
+
 
 
 
