@@ -167,6 +167,75 @@
 //         alert('Your name is Short')
 //     }
 
+// 11. Compare your first name length and your family name length and you should get this output.
+
+// let firstName = 'Asabeneh'
+// let lastName = 'Yetayeh'
+// if (firstName.length > lastName.length){
+//     console.log(`Your first name, ${firstName} is longer than your family name, ${lastName}`)
+// }else {
+//     console.log(`Your first name, ${firstName} is shorter than your family name, ${lastName}`)
+// }
+
+// 12. Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+
+// let myAge = 250
+// let yourAge = 25
+// let gap = myAge-yourAge
+
+// console.log(`I am ${gap} years older than you.`)
+
+// 13. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+
+// let byear= prompt('Enter birth year: ', 'Enter here'),
+//     age = 2023 - byear,
+//     yeargap = 18 - age
+
+//     if (age >= 18){
+//         alert(`You are ${age}. You are old enough to drive`)
+//     }else {
+//         alert(`Your are ${age}. You will be allowed to drive after ${yeargap}.`)
+//     }
+
+// 14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+// let age = prompt('Enter number of years you live:', 'Enter number'),
+//     seconds = 31536000 * age
+//     alert(`You lived ${seconds} seconds`)
+
+// 15. Create a human readable time format using the Date time object
+
+// let now = new Date(),
+//     year = now.getFullYear(),
+//     month = now.getMonth() + 1,
+//     date = now.getDate(),
+//     hrs = now.getHours(),
+//     min = now.getMinutes()
+
+// console.log(`${year}-${month}-${date} ${hrs}:${min}`)
+// console.log(`${date}-${month}-${year} ${hrs}:${min}`)
+// console.log(`${date}/${month}/${year} ${hrs}:${min}`)
+
+// Exercises: Level 3
+// 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
+let now = new Date(),
+    year = now.getFullYear(),
+    month = now.getMonth() + 1,
+    date = now.getDate(),
+    hrs = now.getHours() ,
+    min = now.getMinutes()
+    hour = now.getHours()-12
+    
+
+
+    if ((hrs > 12)&&(min < 10)){
+        console.log(`${year}-${month}-${date} 0${hour}:0${min}`)
+    }if ((hrs > 12)&&(min > 10)){
+        console.log(`${year}-${month}-${date} 0${hour}:${min}`)
+    } else{
+    console.log(`${year}-${month}-${date} ${hrs}:${min}`)
+    }
+
+
 
 
 
