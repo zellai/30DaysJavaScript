@@ -44,3 +44,91 @@
 // }
 
 // Exercise: Level 2
+// 1. Write a code which can give grades to students according to theirs scores:
+// let score = prompt("Enter your score:")
+// switch (true) {
+//     case score >= 80:
+//         alert('A')
+//         break
+//     case score >= 70 && score <= 89 :
+//         alert('B')
+//         break
+//     case score >= 60 && score <= 69:
+//         alert('C')
+//         break
+//     case score >= 50 && score <= 59:
+//         alert('D')
+//         break
+//     case score >= 0 && score <= 49:
+//         alert('F')
+//         break
+//     default:
+//         alert('Entered value was not a number')
+// }
+
+// 2. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+
+// let month = prompt("Enter the month:"),
+//     months = month.toLowerCase()
+
+// switch (month){
+//     case 'september':
+//         alert('The season is Autumn')
+//         break
+//     case 'october':
+//         alert('The season is Autumn')
+//         break
+//     case 'november':
+//         alert('The season is Autumn')
+//         break
+//     case 'december':
+//         alert('The season is Winter')
+//         break
+//     case 'january':
+//         alert('The season is Winter')
+//         break
+//     case 'february':
+//         alert('The season is Winter')
+//         break
+//     case 'march':
+//         alert('The season is Spring')
+//         break
+//     case 'april':
+//         alert('The season is Spring')
+//         break
+//     case 'may':
+//         alert('The season is Spring')
+//         break
+//     case 'june':
+//         alert('The season is Summer')
+//         break
+//     case 'july':
+//         alert('The season is Summer')
+//         break
+//     case 'august':
+//         alert('The season is Summer')
+//         break
+//     default:
+//         alert('Entered word is not a month.')
+// }
+
+// 3. Check if a day is weekend day or a working day. Your script will take day as an input.
+// let day = prompt("What is the day today?"),
+//     today = day.toLowerCase()
+
+// if (today == 'saturday' || today == 'sunday'){
+//     alert(`${today} is a weekend`)
+// }else if (today == 'monday' || 
+//             today == 'tuesday' ||
+//             today == 'wednesday' ||
+//             today == 'thursday' ||
+//             today == 'friday' ){
+//     alert(`${today} is a working day`)
+// }else {
+//     alert("You entered the wrong word.")
+// }
+
+// Exercise : Level 3
+// 1.
+
+
