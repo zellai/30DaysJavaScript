@@ -129,6 +129,22 @@
 // }
 
 // Exercise : Level 3
-// 1.
+// 1. Write a program which tells the number of days in a month.
+// let month = prompt('Enter a month:'),
+//     monthDay = month.toLowerCase()
+
+// if (monthDay == 'january' ||
+//     monthDay == 'march' ||
+//     monthDay == 'may' ||
+//     monthDay == 'july' ||
+//     monthDay == 'august' || 
+//     monthDay == 'october' ||
+//     monthDay == 'december'){
+//         alert(`${monthDay} has 31 days.`)
+//     }else if (monthDay == 'february'){
+//         alert('February has 28 days.')
+//     }else {
+//         alert(`${monthDay} has 30 days.`)
+//     }
 
 
