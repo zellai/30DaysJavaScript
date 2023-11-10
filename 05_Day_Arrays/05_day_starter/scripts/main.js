@@ -1,7 +1,6 @@
-// Exercise: Level2 
-// 1.Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
 console.log(countries)
-console.log(webTechs)
+alert('Open the browser console whenever you work on JavaScript')
+alert('Open the console and check if the countries has been loaded')
 
 // 2. First remove all the punctuations and change the string to array and count the number of words in the array
 let text =
