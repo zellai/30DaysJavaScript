@@ -23,11 +23,13 @@ shoppingCart[3]= 'Green Tea'
 console.log(shoppingCart)
 
 // 4. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
-for (country in countries) {
-    if (country = 'Ethiopia') {
-        console.log('ETHIOPIA')
-    }else {
-        countries.push('Ethiopia')
-        console.log(countries)
-    }
+const hasCountry = countries.includes('Ethiopia')
+if (hasCountry == true){
+    console.log('ETHIOPIA')
+}else {
+    countries.splice('Ethiopia')
+    console.log(countries)
 }
+
+
+
