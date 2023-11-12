@@ -41,3 +41,40 @@ if (hasSass == true){
     webTechs.push('Sass')
     console.log(webTechs)
 }
+
+// 6. Concatenate the following two variables and store it in a fullStack variable.
+
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd = ['Node','Express', 'MongoDB']
+const fullStack = frontEnd.concat(backEnd)
+console.log(fullStack)
+
+// LEVEL 3
+// 1. The following is an array of 10 students ages:
+
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+// Sort the array and find the min and max age
+ages.sort()
+console.log(ages)
+len = ages.length
+console.log(len)
+console.log('Min: '.concat(ages[0]).concat(' Max: ').concat(ages[len-1]))
+// Find the median age(one middle item or two middle items divided by two)
+console.log('Median: '.concat(ages[len/2]))
+// Find the average age(all items divided by number of items)
+const initialValue = 0;
+const totalAge = ages.reduce(
+    (accumulator, currentValue) => accumulator + currentValue,
+    initialValue,
+);
+const ave = totalAge/len
+console.log('Average: ' + ave)
+// Find the range of the ages(max minus min)
+const range = ages[len-1] - ages[0]
+console.log('Range of the ages: '+ range)
+// Compare the value of (min - average) and (max - average), use abs() method 1.Slice the first ten countries from the countries array
+function difference(a, b) {
+    return Math.abs(a - b);
+  }
+  console.log(difference(ages[0], ave));
+  console.log(difference(ages[len-1], ave));
