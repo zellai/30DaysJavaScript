@@ -78,3 +78,14 @@ function difference(a, b) {
   }
   console.log(difference(ages[0], ave));
   console.log(difference(ages[len-1], ave));
+
+// 1.Slice the first ten countries from the countries array
+console.log(countries)
+console.log(countries.slice(0,10))
+// 2. Find the middle country(ies) in the countries array
+const midLen = countries.length/2
+// console.log(midLen)
+console.log(countries[midLen-.5])
+// 3. Divide the countries array into two equal arrays if it is even. 
+
+// If countries array is not even , one more country for the first half.
