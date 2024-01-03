@@ -481,22 +481,99 @@ const fullStack = [
   MONGODB
 */
 
-const fullStack = [
-  ['HTML', 'CSS', 'JS', 'React'],
-  ['Node', 'Express', 'MongoDB']
-];
+// const fullStack = [
+//   ['HTML', 'CSS', 'JS', 'React'],
+//   ['Node', 'Express', 'MongoDB']
+// ];
+
+// let arr = [...fullStack[0], ...fullStack[1]];
+
+// console.log(arr);
+
+// for(let prog of arr){
+//   console.log(prog.toUpperCase());
+// }
 
 
-for(let prog of fullStack[0]){
-  console.log(prog.toUpperCase());
-}
-for(let prog of fullStack[1]){
-  console.log(prog.toUpperCase());
-}
 
+/* EXERCISE LEVEL 3:
 
+1. Copy countries array(Avoid mutation)
 
+// let countryAll = countries;
+// console.log(countryAll);
 
+2. Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
+
+// countries.sort();
+// console.log(countries);
+
+3. Sort the webTechs array and mernStack array
+
+// webTechs.sort();
+// mernStack.sort();
+// console.log(webTechs);
+// console.log(mernStack);
+
+4. Extract all the countries contain the word 'land' from the countries 
+array and print it as array
+
+// let countriesWithLand = countries.filter(countries => countries.toLowerCase().includes('land'));
+
+// if(countriesWithLand.length > 0){
+//   console.log(countriesWithLand);
+// }
+
+5. Find the country containing the hightest number of characters in the countries array
+
+// let max = 0;
+// let country = '';
+
+// for (let i = 0; i < countries.length; i++) {
+//   if (countries[i].length > max ) {
+//     max = countries[i].length;
+//     country = countries[i];
+//   }
+// }
+// console.log(country);
+
+6. Extract all the countries contain the word 'land' from the 
+countries array and print it as array
+
+// let countriesWithLand = countries.filter(countries => countries.toLowerCase().includes('land'));
+
+// if(countriesWithLand.length > 0){
+//   console.log(countriesWithLand);
+// }
+
+7. Extract all the countries containing only four characters from the countries 
+array and print it as array
+
+// let arr = [];
+// for(let country of countries){
+//   if(country.length == 4){
+//     arr.push(country);
+//   }
+// }
+// console.log(arr);
+
+8. Extract all the countries containing two or more words from the countries array and print it as array
+
+// let countryWithTwoWords = countries.filter(countries => countries.includes(' '));
+
+// if (countryWithTwoWords.length > 0){
+//   console.log(countryWithTwoWords);
+// }
+
+9. Reverse the countries array and capitalize each country and stored it as an array
+
+// let arr = [];
+
+// for(let i=countries.length-1; i >=0; i--){
+//   arr.push(countries[i].toUpperCase());
+// }
+// console.log(arr);
+*/
 
 
 
