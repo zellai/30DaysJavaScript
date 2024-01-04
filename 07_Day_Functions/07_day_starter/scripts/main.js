@@ -189,4 +189,141 @@ console.log(findMax(0, -10, -2))
 
 */
 
+/* Exercises: Level 2
+1. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
+
+// function linear(x,y,a,b,c){
+//     let equation = a*x + b*y + c;
+//     return equation;
+// }
+
+// console.log(linear(2,3,1,2,3));
+
+2. Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values of a quadratic equation, solveQuadEquation.
+
+console.log(solveQuadratic()) // {0}
+console.log(solveQuadratic(1, 4, 4)) // {-2}
+console.log(solveQuadratic(1, -1, -2)) // {2, -1}
+console.log(solveQuadratic(1, 7, 12)) // {-3, -4}
+console.log(solveQuadratic(1, 0, -4)) //{2, -2}
+console.log(solveQuadratic(1, -1, 0)) //{1, 0}
+
+// function quadratic(a,b,c){
+//     var result = (-1 * b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a); 
+//     var result2 = (-1 * b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a); 
+//     return "(" + result+ ", " + result2 + ")";
+// }
+
+// console.log(quadratic(1,-1,-2));
+
+3. Declare a function name printArray. It takes array as a parameter 
+and it prints out each value of the array.
+
+// function printArray(arr){
+//     for(const arrs of arr){
+//         console.log(arrs);
+//     }
+// }
+// printArray(countries);
+
+4. Write a function name showDateTime which shows time in this 
+format: 08/01/2020 04:08 using the Date object.
+
+showDateTime()
+08/01/2020 04:08
+
+// function showDateTime() {
+//     // Create a new Date object
+//     var currentDate = new Date();
+
+//     // Get the components of the date and time
+//     var day = currentDate.getDate();
+//     var month = currentDate.getMonth() + 1; // Months are zero-based
+//     var year = currentDate.getFullYear();
+//     var hours = currentDate.getHours();
+//     var minutes = currentDate.getMinutes();
+
+//     // Format the components to have leading zeros if needed
+//     day = day < 10 ? '0' + day : day;
+//     month = month < 10 ? '0' + month : month;
+//     hours = hours < 10 ? '0' + hours : hours;
+//     minutes = minutes < 10 ? '0' + minutes : minutes;
+
+//     // Construct the formatted date and time string
+//     var formattedDateTime = day + '/' + month + '/' + year + ' ' + hours + ':' + minutes;
+
+//     // Display the result
+//     console.log(formattedDateTime);
+// }
+
+// // Call the function to show the current date and time
+// showDateTime();
+
+4.5 Declare a function name swapValues. This function swaps value of x to y.
+
+swapValues(3, 4) // x => 4, y=>3
+swapValues(4, 5) // x = 5, y = 4
+
+// function swapValues(x,y){
+//     num1 = x;
+//     num2 = y;
+//     y = num1;
+//     x = num2;
+//     console.log("x => " + x +", y => " + y );
+// }
+// swapValues(4,5);
+
+4.6 Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
+
+console.log(reverseArray([1, 2, 3, 4, 5]))
+//[5, 4, 3, 2, 1]
+console.log(reverseArray(['A', 'B', 'C']))
+//['C', 'B', 'A']
+
+// function reverseArray(arr){
+//     let ars = [];
+//     for(let i=arr.length-1; i>=0; i--){
+//         ars.push(arr[i]);
+//     }console.log(ars);
+// }
+
+
+5. Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
+
+6. Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
+
+7. Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
+
+8. Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
+
+9. Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
+
+10. Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
+
+11. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+
+evensAndOdds(100);
+The number of odds are 50.
+The number of evens are 51.
+
+
+12. Write a function which takes any number of arguments and return the sum of the arguments
+
+sum(1, 2, 3) // -> 6
+sum(1, 2, 3, 4) // -> 10
+Writ a function which generates a randomUserIp.
+
+13. Write a function which generates a randomMacAddress
+
+14. Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
+
+console.log(randomHexaNumberGenerator());
+'#ee33df'
+
+15. Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
+
+console.log(userIdGenerator());
+41XTDbE
+*/
+
 
