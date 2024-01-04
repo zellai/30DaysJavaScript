@@ -446,14 +446,4 @@ console.log(userIdGenerator());
 */
 
 
-function userIdGenerator(){
-    let hexDigits = "0123456789abcdfghijklmnopqrstuvwxwzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let mac = [];
-    
-    for(let i=0; i<7; i++){
-        let mac1 = hexDigits.charAt(Math.floor(Math.random() * hexDigits.length));
-        mac.push(mac1);
-    }
-    console.log(mac.join(''));   
-}
-userIdGenerator();
+
